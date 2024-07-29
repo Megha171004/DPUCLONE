@@ -1,0 +1,133 @@
+/*genral style*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: rgb(119, 30, 30);   
+     }
+     /* header */
+     header {
+        background-color: #fff(240, 228, 211);
+        color: rgb(112, 27, 27);
+        text-align: center;
+        padding: 2rem,0;
+        position: relative;
+            }
+      .header-content {
+        max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+    .header-content img.profile-picture {
+        width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Circular profile picture */
+    object-fit: cover;
+    border: 5px solid #fff; /* White border */
+    box-shadow: 0 0 10px rgba(145, 7, 7, 0.2); /* Subtle shadow */
+    }
+
+    .header-content h1{
+        font-size: 2.5rem; /* Larger heading */
+    margin-bottom: 10px;
+    }
+
+    .header-content p {
+        font-style: italic;
+    }
+    /*add style for the round profile picture */
+    .profile-picture{
+        width: 200px; /*adjust the size as needed */
+        height: 200px;
+        border-radius: 75%; /*create a circular shape */
+        object-fit: cover; /*to ensure the image fills the circular */
+        position: absolute;
+        top: 80px;
+        left: 80px;
+    }
+
+    /* Navigation Styles */
+    nav {
+    background-color: rgba(165, 42, 42, 0.685);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure navigation stays on top */
+    }
+    
+    nav ul{
+        list-style-type: none;
+    padding: 0;
+    }
+
+    nav ul li {
+    display: inline;
+    margin: 0 20px;
+    }
+
+    nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold; /* Bold navigation links */
+    transition: color 0.3s;
+   }
+
+   
+nav ul li a:hover {
+    color: #3d0202; /* brown on hover */
+}
+
+/*Section Style */
+.section {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #5c021165; /* Softer shadow */
+    transition: background-color 0.3s, color 0.3s;
+    scroll-margin-top: 100px; /* Adjust to match your header height */
+}
+
+.section h2 {
+    font-size: 2.5rem; /* Larger headings */
+    margin-bottom: 1rem; /* More spacing below headings */
+}
+
+.section p{
+    line-height: 1.6; /* Improved readability */
+}
+
+/* Button Style */
+.button {
+    background-color: #520404;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #550311; /* Yellow on hover */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    }      
+    
+    footer p{
+        margin: 0;
+    }
